@@ -1,3 +1,6 @@
+'''
+from the google quick startup guide
+'''
 from __future__ import print_function
 import datetime
 import os.path
@@ -7,7 +10,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
 # If modifying these scopes, delete the file token.json.
-SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
+SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 
 def main():

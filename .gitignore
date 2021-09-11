@@ -1,2 +1,5 @@
 /private/
 /venv/
+/credentials.json
+/token.json
+/token.pickle
